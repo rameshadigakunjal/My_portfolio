@@ -377,7 +377,11 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 Ramesh Adiga. All Rights Reserved.</p>
+      <p>Copyright &copy; <span id="year"></span> Ramesh Adiga. All Rights Reserved.</p>
+<script>
+    // Dynamically update the year
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
     </footer>
     <script src="script.js"></script>
   </body>
